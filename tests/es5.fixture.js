@@ -12,10 +12,8 @@ var MyForm = React.createClass({
   },
 
   render: function() {
-    console.log(this.state);
-    
     return (
-      form(null, 
+      form(null,
         input({ type: 'text', valueLink: linkState(this, 'username'), ref: 'username' }),
         input({ type: 'password', valueLink: linkState(this, 'password'), ref: 'password' })
       )

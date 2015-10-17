@@ -1,4 +1,4 @@
-## react-link-state - [![npm version](http://img.shields.io/npm/v/react-link-state.svg?style=flat-square)](https://npmjs.org/package/react-link-state?style=flat-square) [![Build Status](https://img.shields.io/travis/srph/react-link-state.svg?style=flat-square)](https://travis-ci.org/srph/react-link-state?branch=master)
+## react-link-state [![npm version](http://img.shields.io/npm/v/react-link-state.svg?style=flat-square)](https://npmjs.org/package/react-link-state?style=flat-square) [![Build Status](https://img.shields.io/travis/srph/react-link-state.svg?style=flat-square)](https://travis-ci.org/srph/react-link-state?branch=master)
 A helper function to use LinkedStateMixin for ES6 React Components
 
 ## Installing

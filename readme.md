@@ -33,3 +33,12 @@ export default MyForm extends React.Component {
   }
 }
 ```
+
+## Testing
+```
+npm test
+```
+
+You need node `v4.0.0` to runs the tests. See [issue](http://facebook.github.io/react/docs/test-utils.html#renderintodocument).
+
+> You will need to have window, window.document and window.document.createElement globally available before you import React. Otherwise React will think it can't access the DOM and methods like setState won't work.

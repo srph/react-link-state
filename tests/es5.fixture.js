@@ -1,5 +1,4 @@
 var React = require('react');
-var form = React.DOM.form;
 var input = React.DOM.input;
 var linkState = require('../');
 

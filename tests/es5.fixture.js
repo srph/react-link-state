@@ -12,12 +12,10 @@ var MyForm = React.createClass({
   },
 
   render: function() {
-    return (
-      form(null,
-        input({ type: 'text', valueLink: linkState(this, 'username'), ref: 'username' }),
-        input({ type: 'password', valueLink: linkState(this, 'password'), ref: 'password' })
-      )
-    );
+    return input({
+      type: 'text',
+      valueLink: linkState(this, 'username')
+    });
   }
 });
 

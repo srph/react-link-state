@@ -13,6 +13,7 @@
     "jsdom": "^6.5.1",
     "mocha": "^2.3.3",
     "react": "^0.14.0",
-    "react-addons-test-utils": "^0.14.0"
+    "react-addons-test-utils": "^0.14.0",
+    "react-dom": "^0.14.0"
   }
 }

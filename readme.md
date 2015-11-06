@@ -36,6 +36,20 @@ export default MyForm extends React.Component {
 }
 ```
 
+Deep link-state is also supported!
+
+```es6
+// Given that we have this state:
+// {
+//   users: [{
+//     profile: {
+//       first_name: ''
+//     }
+//   }]
+// }
+<input type="text" valueLink={linkState(this, 'users.0.profile.first_name')} />
+```
+
 ## Testing
 ```
 npm test

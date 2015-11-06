@@ -1,3 +1,12 @@
+/**
+ * Originally from:
+ * https://github.com/tungd/react-catalyst/blob/master/src/catalyst/LinkedStateMixin.js
+ *
+ * @param {object}
+ * @param {string}
+ * @param {any}
+ * @return {object}
+ */
 module.exports = function updateIn(obj, path, value) {
   var current = obj;
   var stack = path.split('.');

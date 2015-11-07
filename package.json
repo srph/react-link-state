@@ -1,7 +1,7 @@
 {
   "name": "react-link-state",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "A helper util to use LinkedStateMixin for ES6",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha tests/*.spec.js --require=tests/setup.js"

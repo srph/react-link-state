@@ -31,14 +31,14 @@ export default MyForm extends React.Component {
       <form>
         <input type="text" valueLink={linkState(this, 'username')} />
         <input type="password" valueLink={linkState(this, 'password')} />
-        <input type="checkbox" checkLink={linkState(this, 'toggle')}
+        <input type="checkbox" checkedLink={linkState(this, 'toggle')}
       </form>
     );
   }
 }
 ```
 
-**Note**: Use [`checkLink`](https://facebook.github.io/react/docs/two-way-binding-helpers.html) for checkboxes.
+**Note**: Use [`checkedLink`](https://facebook.github.io/react/docs/two-way-binding-helpers.html) for checkboxes.
 
 Deep link-state is also supported!
 

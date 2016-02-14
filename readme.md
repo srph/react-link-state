@@ -38,7 +38,7 @@ export default MyForm extends React.Component {
 }
 ```
 
-Note: Use `checkLink` for any checkboxs
+**Note**: Use [`checkLink`](https://facebook.github.io/react/docs/two-way-binding-helpers.html) for checkboxes.
 
 Deep link-state is also supported!
 

@@ -19,7 +19,8 @@ export default MyForm extends React.Component {
 
     this.state = {
       username: '',
-      password: ''
+      password: '',
+      toggle: false
     };
   }
 
@@ -30,11 +31,14 @@ export default MyForm extends React.Component {
       <form>
         <input type="text" valueLink={linkState(this, 'username')} />
         <input type="password" valueLink={linkState(this, 'password')} />
+        <input type="checkbox" checkLink={linkState(this, 'toggle')}
       </form>
     );
   }
 }
 ```
+
+Note: Use `checkLink` for any checkboxs
 
 Deep link-state is also supported!
 

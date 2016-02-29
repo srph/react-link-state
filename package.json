@@ -15,5 +15,6 @@
     "react": "^0.14.0",
     "react-addons-test-utils": "^0.14.0",
     "react-dom": "^0.14.0"
-  }
+  },
+  "repository": "srph/react-link-state"
 }

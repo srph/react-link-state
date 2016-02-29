@@ -14,8 +14,8 @@ import React from 'react';
 import linkState from 'react-link-state';
 
 export default MyForm extends React.Component {
-  constructor(props, context) {
-    super(props, context);
+  constructor(props) {
+    super(props);
 
     this.state = {
       username: '',

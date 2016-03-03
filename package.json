@@ -1,6 +1,6 @@
 {
   "name": "react-link-state",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A helper util to use LinkedStateMixin for ES6",
   "main": "index.js",
   "scripts": {

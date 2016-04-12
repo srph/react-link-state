@@ -31,7 +31,7 @@ export default MyForm extends React.Component {
       <form>
         <input type="text" valueLink={linkState(this, 'username')} />
         <input type="password" valueLink={linkState(this, 'password')} />
-        <input type="checkbox" checkedLink={linkState(this, 'toggle')}
+        <input type="checkbox" checkedLink={linkState(this, 'toggle')} />
       </form>
     );
   }

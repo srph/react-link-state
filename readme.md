@@ -2,7 +2,7 @@
 A helper function to use LinkedStateMixin for ES6 React Components.
 
 ## Removal of `valueLink`
-`valueLink` has been removed for versions `>=16`. Still, this projects works just fine for older versions.
+`valueLink` has been removed from React starting on `v16`. Still, this projects works just fine for older versions.
 
 ## Installing
 ```bash

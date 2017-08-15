@@ -4,6 +4,8 @@ A helper function to use LinkedStateMixin for ES6 React Components.
 ## Removal of `valueLink`
 `valueLink` has been removed from React starting on `v16`. Still, this projects works just fine for older versions.
 
+If you'd like to future-proof your application, check out [@developit](https://github.com/developit)'s [`linkstate`](https://github.com/developit/linkstate).
+
 ## Installing
 ```bash
 npm install react-link-state --save
